@@ -16,6 +16,6 @@ MultiGATE Tutorials
    :maxdepth: 2
    
    notebooks/high-res_clustering
-   notebooks/data_preprocessing
+   notebooks/data_preprocess
 
    
