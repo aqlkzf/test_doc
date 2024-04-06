@@ -20,3 +20,11 @@ Contents
 
    usage
    api
+MultiGATE Tutorials
+-------------------
+
+.. toctree::
+   :maxdepth: 2
+   notebooks/high-res_clustering
+
+   
