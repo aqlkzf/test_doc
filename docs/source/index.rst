@@ -13,11 +13,12 @@ to integrate multi-modality and spatial information effectively.
 
 
 MultiGATE Tutorials
---------
+-------------------
 
 .. toctree::
    :maxdepth: 2
    
    notebooks/high-res_clustering
+   notebooks/data_preprocessing
 
    
