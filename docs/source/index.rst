@@ -13,18 +13,22 @@ how to :ref:`installation` the project.
 
    This project is under active development.
 
-Contents
+MultiGATE installation & Usage
 --------
 
 .. toctree::
+   :maxdepth: 2
 
+   installation
    usage
-   api
+
+
 MultiGATE Tutorials
--------------------
+--------
 
 .. toctree::
    :maxdepth: 2
+   
    notebooks/high-res_clustering
 
    
