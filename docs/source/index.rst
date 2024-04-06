@@ -9,9 +9,6 @@ to integrate multi-modality and spatial information effectively.
 
    This project is under active development.
 
-.. MultiGATE installation & Usage
-
-
 MultiGATE Tutorials
 -------------------
 
