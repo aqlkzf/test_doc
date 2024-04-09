@@ -10,7 +10,7 @@ to integrate multi-modality and spatial information effectively.
    This project is under active development.
 
 User Guide
-----------
+-------------
 .. toctree::
    :maxdepth: 2
 
