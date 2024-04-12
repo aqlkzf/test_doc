@@ -27,5 +27,6 @@ MultiGATE Tutorials
    
    notebooks/high-res_clustering
    notebooks/data_preprocess
+   notebooks/human
 
    
