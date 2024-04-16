@@ -67,7 +67,7 @@ Follow these steps to install the MultiGATE package in a dedicated Conda environ
 
    ```python
    # Activate your Conda environment if not already activated
-   conda activate MultiGATEinstall
+   conda activate MultiGATEenv
 
    # Test the installation
    python -c "import MultiGATE; print('MultiGATE installed successfully')"
