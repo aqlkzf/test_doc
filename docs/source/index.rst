@@ -25,8 +25,9 @@ MultiGATE Tutorials
 .. toctree::
    :maxdepth: 2
    
-   notebooks/high-res_clustering
-   notebooks/data_preprocess
    notebooks/human
+   notebooks/slide_tags
+   notebooks/spleen
+   notebooks/p22
 
    
