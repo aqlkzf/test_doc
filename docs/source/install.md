@@ -7,7 +7,8 @@ conda create -n MultiGATEenv  python=3.7 -y
 conda activate MultiGATEenv
 conda install tensorflow-gpu=1.15.0 cudatoolkit=10.0 cudnn=7.6.5 -y
 conda install scikit-learn  pandas scanpy jupyterlab tqdm matplotlib conda-forge::networkx bioconda::pybedtools  conda-forge::louvain -y
-pip install rpy2 --global-option=build_ext --global-option="-std=c99"
+export CFLAGS="-std=c99"
+pip install rpy2
 pip install MultiGATE
 ```
 
@@ -50,10 +51,11 @@ Follow these steps to install the MultiGATE package in a dedicated Conda environ
    ```
 
 5. **Install RPy2**
-   RPy2 is required for integrating R with Python. Note the use of global options to ensure compatibility with the C99 standard.
+   RPy2 is required for integrating R with Python. Note the use of `export CFLAGS="-std=c99"` to ensure compatibility with the C99 standard.
 
    ```bash
-   pip install rpy2 --global-option=build_ext --global-option="-std=c99"
+   export CFLAGS="-std=c99"
+   pip install rpy2
    ```
 
 6. **Install MultiGATE**
