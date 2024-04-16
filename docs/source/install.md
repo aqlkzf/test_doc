@@ -11,9 +11,9 @@ pip install rpy2 --global-option=build_ext --global-option="-std=c99"
 pip install MultiGATE
 ```
 
-> If you can install MultiGATE following the above command you can just goto other tutorials to learn more about MultiGATE and skip the following detailed instructions for installation
+> If you can install MultiGATE following the above command you can just goto other tutorials to learn more about MultiGATE and skip the following detailed instructions for installation.
 
-## Deatiled instructions
+## Detailed instructions
 
 ### Installation Guide for MultiGATE Package
 
