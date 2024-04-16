@@ -33,7 +33,7 @@ Follow these steps to install the MultiGATE package in a dedicated Conda environ
    ```
 
 3. **Install TensorFlow and CUDA Toolkit**
-   Install TensorFlow 1.15.0 along with the compatible CUDA toolkit and cuDNN library to enable GPU support. This step is crucial for performance if you are processing large datasets.
+   Install TensorFlow 1.15.0 along with the compatible CUDA toolkit and cuDNN library to enable GPU support. We strongly recommend you install the listed version of TensorFlow and CUDA toolkit and cudnn library.
 
    ```bash
    conda install tensorflow-gpu=1.15.0 cudatoolkit=10.0 cudnn=7.6.5 -y
@@ -56,7 +56,7 @@ Follow these steps to install the MultiGATE package in a dedicated Conda environ
    ```
 
 6. **Install MultiGATE**
-   Finally, install the MultiGATE package using pip. This step assumes that the package is available on PyPI or a similar index.
+   Finally, install the MultiGATE package using pip. 
 
    ```bash
    pip install MultiGATE
